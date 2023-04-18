@@ -1,0 +1,39 @@
+Summary-useState
+
+1)the useState hooks lets u add state to the functional components.
+
+2)In classes the state is always an object
+
+3)With the useState hook, the state doesn't have to be an object.
+
+4)the useState hook returns an array with 2 elements.
+
+5)The 1st element is the current value of the state, & the second element is a state setter function.
+
+6)New state value is Depends upon previous state value? You can pass the function to the setter function.
+
+7)When dealing with object an arrays,always make sure to spread your state variable & then call the setter function.
+
+------------------------------------------------------------------------------------------------------------------------
+
+Summary-List & Keys
+
+1)A key is special string attribute you need to include when creating of an element.
+
+2)Keys give the element as stable identity.
+
+3)Keys help react identify which items have changed,added or removed.
+
+4)Help in efficient update of user interface.
+
+------------------------------------------------------------------------------------------------------------------------
+
+Summary-Index as a key
+
+Q)When to use index as a key?
+
+1)Then items in your list do not have a unique id.
+
+2)The list is a static list and wil not change.
+
+3)The list will never be reordered or filtered.
